@@ -1,5 +1,7 @@
-a = 2
-b = 3
-c = True
+days = ["mon","tue","wed","thur","fri"]
 
-print(a + b)
+print("mon" in days)
+days.append("sun")
+print(days)
+days.reverse()
+print(days)
