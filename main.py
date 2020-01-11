@@ -21,3 +21,8 @@ nico = {
 }
 nico["handsome"] = True
 print(nico)
+# 1.3
+print(len("hoge"))
+age = "18"
+age_n = int(age)
+print(type(age_n))
