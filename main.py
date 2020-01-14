@@ -1,6 +1,7 @@
-from math import ceil, fsum
-import cal
-print(ceil(1.2))
-print(fsum([1, 2, 3, 4, 5, 6]))
+import requests
+from bs4 import BeautifulSoup
 
-print(cal.plus(1,2))
+indeed_result = requests.get("https://www.indeed.com/jobs?q=python&limit=50")
+print(indeed_result.text)
+
+# https://stackoverflow.com/jobs?q=python
